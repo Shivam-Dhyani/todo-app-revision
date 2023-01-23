@@ -23,7 +23,7 @@ function App() {
       setTodos([...todos, todo]);
     }
     event.preventDefault();
-    // setTodo("");
+    setTodo("");
   };
 
   const handleEditTodo = (idx) => {
